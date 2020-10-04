@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+
+    </style>
+ <link href="styles/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1 style="color:brown; text-align:center;">Pool Table Management </h1>
+    <h></h>
+
+    <table style = "width:100%">
+        <thead>
+            <tr>
+                <td>Pool table 1</td>
+                <td>Pool table 2</td>
+                <td>Pool table 3</td>
+            </tr>
+     </thead>
+
+    
+        <tbody>
+            <tr>
+             <td>
+                 <p>
+                <img id ="pTable1" onclick="turnOnOff();" src="images/pool0.png" width="200" height="100">
+                 </p>
+                 <p id = "sTime0">
+                    Start time:
+                 </p>
+                 <p id = eTime0>
+                    End time:
+                 </p>
+                 <p>
+                    Estimated total:<p id = "total0"></p>
+                 </p>
+            </td>
+             <td> 
+                 <p>
+                <img id ="pTable2" onclick="turnOnOff1()" src="images/pool0.png" width="200" height="100">
+                 </p>
+                 <p id = "sTime1">
+                    Start time:
+                 </p>
+                 <p id = eTime1>
+                  End time:
+                 </p>
+                 <p>
+                    Estimated total:<p id = "total1"></p>
+                 </p></td>
+             <td>
+                 <p>
+                <img id ="pTable3" onclick="turnOnOff2()" src="images/pool0.png" width="200" height="100">
+                 </p>
+                 <p id = "sTime2">
+                    Start time:
+                 </p>
+                 <p id = eTime2>
+                  End time:
+                 </p>
+                 <p>
+                    Estimated total:<p id = "total2"></p>
+                 </p></td></td>
+            </tr>
+
+         <tr>
+             <td>Pool table 4</td>
+             <td>Pool table 5</td>
+             <td>Pool table 6</td>
+
+         </tr>
+
+          <tr>
+            <td>
+                <p>
+                <img id ="pTable4" onclick="turnOnOff3()" src="images/pool0.png" width="200" height="100">
+                 </p>
+                 <p id = "sTime3">
+                    Start time:
+                 </p>
+                 <p id = eTime3>
+                  End time:
+                 </p>
+                 <p>
+                    Estimated total:<p id = "total3"></p>
+                 </p></td></td>
+            <td>
+                <p>
+                <img id ="pTable5" onclick="turnOnOff4()" src="images/pool0.png" width="200" height="100">
+                 </p>
+                 <p id = "sTime4">
+                    Start time:
+                 </p>
+                 <p id = eTime4>
+                  End time:
+                 </p>
+                 <p>
+                    Estimated total:<p id = "total4"></p>
+                 </p></td></td>
+            <td>
+                <p>
+                <img id ="pTable6" onclick="turnOnOff5()" src="images/pool0.png" width="200" height="100">
+                 </p>
+                 <p id = "sTime5">
+                    Start time:
+                 </p>
+                 <p id = eTime5>
+                  End time:
+                 </p>
+                 <p>
+                    Estimated total:<p id = "total5"></p>
+                 </p></td></td>
+
+           </tr>         
+        </tbody>
+    </table>
+    <hr></hr>
+    <p>Andrés Piñón Marín</p>
+    <p>307737</p>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>
